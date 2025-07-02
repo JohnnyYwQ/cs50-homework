@@ -1,0 +1,18 @@
+{
+  "name": "CS50 Full Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-python.python",
+    "ms-vscode.cpptools",
+    "ms-python.python",
+    "esbenp.prettier-vscode",     // HTML/CSS/JS 格式化
+    "dbaeumer.vscode-eslint",     // JS 语法检查
+    "ritwickdey.LiveServer" 
+  ]
+}
